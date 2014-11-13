@@ -1,0 +1,78 @@
+body
+{
+  padding-top: 5px;
+  height: auto;
+  background-color: #222;
+}
+.main-content
+{
+  background-color: #f2f2f2;
+  border: 2px solid;
+  border-color: #eee;
+  border-radius: 10px;
+}
+.main-content-container
+{
+  padding: 10px;
+}
+.thin-break
+{
+  margin: 0px;
+  border-top: 2px solid #BBB;
+}
+.lower-navi, .upper-navi
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+.lower-navi a, .upper-navi a
+{
+  color: #555;
+}
+.lower-navi a:hover
+{
+  color: black;
+}
+
+.naked-punch-banner
+{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+}
+.articles-table table, .articles-table td, .articles-table th
+{
+  /*
+  border: 1px solid black;
+  border-collapse: collapse;
+  */
+}
+.articles-table td
+{
+  width: 50%;
+  height: 160px;
+
+}
+.article-summary
+{
+  margin-left: 103px;
+  margin-right: 5px;
+
+}
+.article-image
+{
+  float: left;
+}
+.donate-div
+{
+  text-align: center;
+}
+#ymlp_subscription_form
+{
+  padding: 28px 0;
+}
+.subscribe-table td
+{
+  padding: 10px;
+}

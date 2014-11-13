@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of Twitter Bootstrap 3 Grid System</title>
+<!--
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+-->
+<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/css/style.css">
+<link rel="stylesheet" type="text/css" href="nakedpunch.css">
+<link rel="stylesheet" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slick/slick/slick.js"></script>
+
+<style type="text/css">
+    p{
+        padding: 5px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        background: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+    <div class="container main-content">
+      <div class="main-content-container">
+        <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-inline pull-right upper-navi">
+                  <li><a href="#">  Login</a></li>
+                  <li><a href="#">  Signup</a></li>
+                  <li>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="Q44TC8B8G9EX8">
+                      <input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online.">
+                      <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                  </li>
+              </ul>
+
+            </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-lg-12 naked-punch-banner"><img src="np-logo-gray.jpg" alt="logo" width="100%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-lg-12" style="padding: 0px;">
+              <ul class="list-inline lower-navi">
+                  <li><a href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-inbox"></span>  Archives</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span>  Communards</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-book"></span>  The Issues</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>  About Us</a></li>
+              </ul>
+            </div>
+          </div>
+<hr class="thin-break">
+        </div>
+        <div>
+          <div class="row" >
+            <div class="col-lg-12" style="padding: 0px;">
+              <div class="slider multiple-items">
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="100"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="100"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="100"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+                <div class="myclass"><img src="h.jpg" alt="Smiley face" height="400" width="300"><div class="imgText">Text</div></div>
+              </div>
+
+            </div>
+          </div>
+          <hr>
+        </div>
+      <div>
+        <div class="row">
+          <div class="col-lg-9" style="padding: 0px;"><p style="height: 300px;">Articles</p></div>
+          <div class="col-lg-3" style="padding: 0px;"><p style="height: 300px;">Side Bar</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-lg-12" style="padding: 0px;"><p>Footer</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('.multiple-items').slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          arrows: false
+      });
+  });
+  </script>
+
+</body>
+</html>
+
+<!--
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 3</p></div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 4</p></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="clearfix visible-lg-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 5</p></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 6</p></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 7</p></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 8</p></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="clearfix visible-lg-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 9</p></div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 10</p></div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 11</p></div>
+            <div class="col-lg-6 col-md-4 col-lg-3"><p>Box 12</p></div>
+
+-->
