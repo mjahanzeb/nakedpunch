@@ -76,3 +76,12 @@ body
 {
   padding: 10px;
 }
+.communards-container p
+{
+  margin: 15px;
+  line-height: 130%;
+}
+.small-heading
+{
+  font-size: 16px;
+}

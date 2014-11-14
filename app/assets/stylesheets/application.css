@@ -11,7 +11,7 @@
  *= require_self
  *= require bootstrap/bootstrap.min.css
  *= require bootstrap/bootstrap-theme.min.css
- *= require slick/slick/slick.css
- *= require slick/css/style.css
+ *= require slick/slick.css
+ *= require slick/style.css
  *= require nakedpunch.css
 */

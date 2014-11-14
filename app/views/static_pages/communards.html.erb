@@ -1,2 +1,15 @@
-<h1>StaticPages#communards</h1>
-<p>Find me in app/views/static_pages/communards.html.erb</p>
+<div class="container main-content">
+  <div class="main-content-container">
+    <%= render 'layouts/upper_navi' %>
+    <%= render 'layouts/banner' %>
+    <%= render 'layouts/lower_navi' %>
+
+    <div class="row"> <!-- Articles Table -->
+      <%= render 'layouts/communards' %>
+    </div>
+  </div>
+
+</div>
+<script src="/assets/nakedpunch.js"></script>
+
+<%= render 'layouts/footer' %>
